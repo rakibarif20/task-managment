@@ -1,0 +1,36 @@
+.taskDetails {
+  padding: 30px;
+
+  &__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &__editAndDelete {
+      button {
+        margin-right: 12px;
+      }
+    }
+  }
+
+  &__content {
+    h5 {
+      font-weight: 700;
+      font-size: 22px;
+      line-height: 26px;
+      margin-bottom: 20px;
+      text-transform: capitalize;
+      transition: all 0.3s;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+    p {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 18px;
+      color: #000000;
+    }
+  }
+}

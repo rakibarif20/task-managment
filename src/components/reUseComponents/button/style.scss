@@ -1,0 +1,17 @@
+.reuseButton {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  padding: 6px 16px;
+  color: #000000;
+  background: #c4c4c4;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  transition: all 0.3s;
+  cursor: pointer;
+
+  &:hover {
+    background: #14111459;
+  }
+}

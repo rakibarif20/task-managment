@@ -1,0 +1,22 @@
+.loggedUser {
+  display: flex;
+  align-items: center;
+  margin-right: 6px;
+
+  p {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    color: #ffffff;
+    margin-right: 12px;
+  }
+  button {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    background: none;
+  }
+}
